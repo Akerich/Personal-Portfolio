@@ -60,6 +60,7 @@
         border-radius: 7px;
         font-weight: bold;
     }
+    
     .prof-name{
         color: white;        
         display: flex;
@@ -99,6 +100,9 @@
 
         /* padding-left: 175px; */
     }
+    a:link{
+        text-decoration: none;
+    }
     
     
 </style>
@@ -111,9 +115,12 @@
         <button class="btn">Case Studies</button>
         <button class="btn">Testimonials</button>
         <button class="btn">Recent Work</button>
-        <button class="btn">Get In Touch</button>
-    
-        <img class="img1" src="XIcon.png">
+        <a href="mailto:alexanderkerich@live.com">
+            <button class="btn">Get In Touch</button>
+        </a>
+        <a href="https://x.com/KeriAlexi" target="_blank">
+            <img class="img1" src="XIcon.png">
+        </a>
         <img class="img1" src="LinkedIn.png">
     </div>
 
@@ -124,7 +131,10 @@
             <div>
                 <h2 class="prof-name">Alexander Kerich</h2>
                 <p class="main-content">I'm a full stack developer. I work with Html, CSS, JavaScript and C++</p>     
-                <button class="main-btn">Let's Get Started</button>
+                <a href="mailto:alexanderkerich@live.com">
+                    <button class="main-btn">Let's Get Started</button>
+                </a>
+                <a class="main-btn" href="KERICHALEXANDERKIPROPCV.pdf" target="_blank">CV</a>
             </div>
             <img class="keri-img" src="Kerich.jpg">
         </div>
@@ -132,8 +142,12 @@
         <!-- Experience container-->
         <div class="exp-container">
             <h2 class="exp-name">Worked with</h2>
-            <button class="exp-btn">COMOCO</button>
-            <button class="exp-btn">KTDA</button>
+            <a href="https://web.facebook.com/groups/comocosacco/?_rdc=1&_rdr#" target="_blank">
+                <button class="exp-btn">COMOCO</button>
+            </a>
+            <a href="https://ktdateas.com/" target="_blank">
+                <button class="exp-btn">KTDA</button>
+            </a>   
         </div>
 
     
