@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-color: black;
+    }
+    .nav-cont{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(85, 84, 84);
+        height: 50px;        
+        margin: 80px;
+        margin-top: 0px;
+        margin-left: 175px;
+                          
+    }
+
+    .btn{
+        border-style: none;
+        background-color: rgb(85, 84, 84);
+        font: grey;
+        margin: 10px;
+        padding-right: 20px;
+
+    }
+
+
+    .img1{
+        margin-top: 7px;
+        width:20px;
+        height: 20px;
+        padding-right: 20px;
+    }
+    
+    .keri-img{
+        width: 300px;
+        height: 300px;
+        border-radius: 400px;
+
+    }
+    .prof-container{
+        display: flex;   
+        justify-content: space-around; 
+        align-items: center;    
+        margin-top: 50px;
+        /*border-style: solid;
+        border-color: white;    */    
+    }
+    .main-btn{
+        width: 250px;
+        height: 60px;    
+        
+        margin-bottom: 0px;
+        background-color: rgb(74, 238, 74);
+        color: white;
+        border-radius: 7px;
+        font-weight: bold;
+    }
+    .prof-name{
+        color: white;        
+        display: flex;
+    }
+    .main-content{        
+        color: beige;
+        
+    }
+    .exp-container{
+        margin-top: 70px;
+        width: 100%;
+        justify-items: center;  
+        /* justify-content: space-around; 
+        align-items: center; 
+        display: flex; 
+        border-style: solid;
+        border-color: white; */
+    }
+    .exp-name{
+        color: white;
+        margin-left: 175px;
+        display: flex;
+        justify-content: center;
+    }
+    .exp-btn{
+        color: grey;
+        background-color: rgb(54, 54, 54); 
+        border: solid;
+        border-color: rgb(211, 211, 211);
+        border: 1px;
+        width: 100px;
+        height: 50px;
+        margin-right: 30px;
+        margin-left: 175px;
+        border-radius: 7px;
+        justify-content: space-between;
+
+        /* padding-left: 175px; */
+    }
+    
+    
+</style>
+
+</head>
+<body>
+    <!-- Navigation Container-->
+    <div class="nav-cont">
+        <button class="btn">Home</button>
+        <button class="btn">Case Studies</button>
+        <button class="btn">Testimonials</button>
+        <button class="btn">Recent Work</button>
+        <button class="btn">Get In Touch</button>
+    
+        <img class="img1" src="XIcon.png">
+        <img class="img1" src="LinkedIn.png">
+    </div>
+
+    <!-- Main Container-->
+    
+        <!-- Profile container-->
+        <div class="prof-container">
+            <div>
+                <h2 class="prof-name">Alexander Kerich</h2>
+                <p class="main-content">I'm a full stack developer. I work with Html, CSS, JavaScript and C++</p>     
+                <button class="main-btn">Let's Get Started</button>
+            </div>
+            <img class="keri-img" src="Kerich.jpg">
+        </div>
+        
+        <!-- Experience container-->
+        <div class="exp-container">
+            <h2 class="exp-name">Worked with</h2>
+            <button class="exp-btn">COMOCO</button>
+            <button class="exp-btn">KTDA</button>
+        </div>
+
+    
+</body>
+</html>
